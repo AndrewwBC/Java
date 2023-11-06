@@ -15,5 +15,9 @@ public class Exception extends java.lang.Exception {
         return erroMsg;
     }
 
+    public String getErroMsgssss() {
+        return erroMsg;
+    }
+
 
 }
