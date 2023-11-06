@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LPOO.iml" filepath="$PROJECT_DIR$/LPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca_multipla/heranca_multipla.iml" filepath="$PROJECT_DIR$/heranca_multipla/heranca_multipla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca_simples/heranca_simples.iml" filepath="$PROJECT_DIR$/heranca_simples/heranca_simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_dois/lista_dois.iml" filepath="$PROJECT_DIR$/lista_dois/lista_dois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_um/lista_um.iml" filepath="$PROJECT_DIR$/lista_um/lista_um.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_um_obj3/lista_um_obj3.iml" filepath="$PROJECT_DIR$/lista_um_obj3/lista_um_obj3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetivo_dois/objetivo_dois.iml" filepath="$PROJECT_DIR$/objetivo_dois/objetivo_dois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetivo_tres/objetivo_tres.iml" filepath="$PROJECT_DIR$/objetivo_tres/objetivo_tres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetivo_um/objetivo_um.iml" filepath="$PROJECT_DIR$/objetivo_um/objetivo_um.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polimorfismo/polimorfismo.iml" filepath="$PROJECT_DIR$/polimorfismo/polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_um_obj3/primeiro_diagrama/primeiro_diagrama.iml" filepath="$PROJECT_DIR$/lista_um_obj3/primeiro_diagrama/primeiro_diagrama.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_um_obj3/segundo_diagrama/segundo_diagrama.iml" filepath="$PROJECT_DIR$/lista_um_obj3/segundo_diagrama/segundo_diagrama.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_um_obj3/terceiro_diagrama/terceiro_diagrama.iml" filepath="$PROJECT_DIR$/lista_um_obj3/terceiro_diagrama/terceiro_diagrama.iml" />
+    </modules>
+  </component>
+</project>
