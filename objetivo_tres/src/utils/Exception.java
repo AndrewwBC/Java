@@ -10,7 +10,6 @@ public class Exception extends java.lang.Exception {
         return erroMsg;
     }
 
-    public void setErroMsg(String erroMsg) {
-        this.erroMsg = erroMsg;
-    }
+
+
 }
