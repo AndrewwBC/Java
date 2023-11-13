@@ -8,13 +8,15 @@ public class Item {
     private Integer codItem;
     private Double desconto;
     private Integer quantidade;
-    private List<Produto> produtos = new ArrayList();
 
-    public Item(Integer codItem, Double desconto, Integer quantidade, List<Produto> produtos) {
+    //correção da multiplicidade
+    private Produto produto;
+
+    public Item(Integer codItem, Double desconto, Integer quantidade, Produto produto) {
         this.codItem = codItem;
         this.desconto = desconto;
         this.quantidade = quantidade;
-        this.produtos = produtos;
+        this.produto = produto;
     }
 
     public Integer getCodItem() {
@@ -37,15 +39,13 @@ public class Item {
         return quantidade;
     }
 
-    public void setQuantidade(Integer quantidade) {
-        this.quantidade = quantidade;
-    }
-
-    public List<Produto> getProdutos() {
-        return produtos;
-    }
-
-    public void setProdutos(List<Produto> produtos) {
-        this.produtos = produtos;
+    @Override
+    public String toString() {
+        return "Item{" +
+                "codItem=" + codItem +
+                ", desconto=" + desconto +
+                ", quantidade=" + quantidade +
+                ", produto=" + produto +
+                '}';
     }
 }

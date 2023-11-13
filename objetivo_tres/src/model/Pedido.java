@@ -21,49 +21,10 @@ public class Pedido {
         this.item = item;
     }
 
-    public Integer getNumero() {
-        return numero;
-    }
-
-    public void setNumero(Integer numero) {
-        this.numero = numero;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
-
-    public Double getValor() {
-        return valor;
-    }
-
-    public void setValor(Double valor) {
-        this.valor = valor;
-    }
-
-    public Item getItem() {
-        return item;
-    }
-
-    public void setItem(Item item) {
-        this.item = item;
-    }
-
-    public Vendedor getVendidoPor() {
-        return vendidoPor;
-    }
-
-    public void setVendidoPor(Vendedor vendidoPor) {
-        this.vendidoPor = vendidoPor;
-    }
 
     @Override
     public String toString() {
-        return "Pedido{" +
+        return "\nPedido{" +
                 "numero=" + numero +
                 ", data=" + data +
                 ", valor=" + valor +
