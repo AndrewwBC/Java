@@ -1,11 +1,13 @@
 package model;
 
+import java.util.List;
+
 public class Pedido {
 
     private Integer numero;
     private String data;
     private Double valor;
-    private Item item;
+    private List<Item> itens;
     private enum tipo {
         atendido,
         pendente,

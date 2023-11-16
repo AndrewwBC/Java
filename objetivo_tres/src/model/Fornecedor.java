@@ -1,11 +1,13 @@
 package model;
 
+import java.util.List;
+
 public class Fornecedor {
 
     private Integer cnpj;
     private String contato;
     private String nome;
-    private Produto produto;
+    private List<Produto> produtos;
 
     public Fornecedor(Integer cnpj, String contato, String nome, Produto produto) {
         this.cnpj = cnpj;
